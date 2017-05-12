@@ -1,0 +1,31 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="xinfu_wechat_pay:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/xinfu_wechat_pay_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="xinfu_wechat_pay" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="spring-context-4.0.4.RELEASE.jar" module-name="xinfu_wechat_pay" />
+          <element id="library" level="module" name="spring-web-4.0.4.RELEASE.jar" module-name="xinfu_wechat_pay" />
+          <element id="library" level="module" name="spring-webmvc-4.0.4.RELEASE.jar" module-name="xinfu_wechat_pay" />
+          <element id="library" level="module" name="spring-aop-4.0.4.RELEASE.jar" module-name="xinfu_wechat_pay" />
+          <element id="library" level="module" name="spring-beans-4.0.4.RELEASE.jar" module-name="xinfu_wechat_pay" />
+          <element id="library" level="module" name="spring-core-4.0.4.RELEASE.jar" module-name="xinfu_wechat_pay" />
+          <element id="library" level="module" name="spring-tx-3.2.8.RELEASE.jar" module-name="xinfu_wechat_pay" />
+          <element id="library" level="module" name="springside-core-4.2.2.GA.jar" module-name="xinfu_wechat_pay" />
+          <element id="library" level="module" name="jackson-core-asl-1.9.2.jar" module-name="xinfu_wechat_pay" />
+          <element id="library" level="module" name="jackson-mapper-asl-1.9.2.jar" module-name="xinfu_wechat_pay" />
+          <element id="library" level="module" name="javassist-3.18.1-GA.jar" module-name="xinfu_wechat_pay" />
+          <element id="library" level="module" name="jstl-1.2.jar" module-name="xinfu_wechat_pay" />
+          <element id="library" level="module" name="spring-expression-4.0.4.RELEASE.jar" module-name="xinfu_wechat_pay" />
+          <element id="library" level="module" name="slf4j-api-1.7.7.jar" module-name="xinfu_wechat_pay" />
+          <element id="library" level="module" name="jcl-over-slf4j-1.7.7.jar" module-name="xinfu_wechat_pay" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/json-lib-0.9.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="xinfu_wechat_pay/web/Web" />
+    </root>
+  </artifact>
+</component>
